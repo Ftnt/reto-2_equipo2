@@ -14,7 +14,7 @@
     margin:5px;
 }
 
-//First Card-Login Card
+//1.First Card-Login Card
 .card{
     width: 240px;
     //border: solid red 1px;
@@ -64,7 +64,7 @@
     }
 }
 
-//FirstSection
+//2.FirstSection
 .LBcontIntro{
     width: 240px;
     padding-top: 10px;
@@ -74,7 +74,7 @@
     }
 }
 
-//SecondSection-Other
+//3.Other
 .LBcontOther{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -88,7 +88,7 @@
     }
 }
 
-//ThirdSection-SocialNetwork
+//4.SocialNetwork
 .LBcontRedS{
     .btn-group{
         fill: #7c7a7a;
@@ -98,3 +98,30 @@
         }
     }
 }
+
+//5.PopularTags
+.LBcontTags{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+    .LBheadTags{
+        font-weight: bold;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .list-group{
+        width: 240px;
+        height: 360px;
+        overflow: scroll;
+        overflow-x: hidden;
+
+        .list-group-item{
+            padding-left: 0%;
+            border: white;
+        }
+    }
+
+}
+    
+

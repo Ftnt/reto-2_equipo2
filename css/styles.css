@@ -91,4 +91,27 @@
   fill: #504f4f;
   cursor: pointer;
 }
+
+.LBcontTags {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.LBcontTags .LBheadTags {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.LBcontTags .list-group {
+  width: 240px;
+  height: 360px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.LBcontTags .list-group .list-group-item {
+  padding-left: 0%;
+  border: white;
+}
 /*# sourceMappingURL=styles.css.map */
