@@ -19,14 +19,17 @@
     .card-body{
         padding-left: 20px;
         .card-title{
+
+        //Texto de Header
             @include fontHead();
-            font-size: 18px;
-            
+            font-size: 18px;  
             padding-bottom: 5px;
-            
             .LBIntroLink{
                 color: #3b49df;
                 text-decoration: none;
+                }
+            .LBIntroLink:hover{
+                cursor: pointer;
             }
         }
         .card-text{
@@ -35,18 +38,27 @@
             color: #5C5757;
         }
 
+    //Botones de Header
+        //Boton1
         .btn-primary{
             @include btnHead();
             background-color: #3b49df;
             border: #3b49df;
         }
+        .btn-primary:hover{
+            background-color: #2c38c0;
+        }
+        //Boton2
         .btn-light{
             @include btnHead();
             color: #3b49df;
             background-color: white;
             border: white;
-            
         }
+        .btn-light:hover{
+            background-color: #f1efef;
+        }
+
 
     }
 }

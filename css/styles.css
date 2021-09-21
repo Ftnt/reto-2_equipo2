@@ -21,6 +21,10 @@
   text-decoration: none;
 }
 
+.card .card-body .card-title .LBIntroLink:hover {
+  cursor: pointer;
+}
+
 .card .card-body .card-text {
   word-spacing: 1px;
   font-size: 16px;
@@ -35,6 +39,10 @@
   border: #3b49df;
 }
 
+.card .card-body .btn-primary:hover {
+  background-color: #2c38c0;
+}
+
 .card .card-body .btn-light {
   height: 40px;
   width: 200px;
@@ -42,5 +50,9 @@
   color: #3b49df;
   background-color: white;
   border: white;
+}
+
+.card .card-body .btn-light:hover {
+  background-color: #f1efef;
 }
 /*# sourceMappingURL=styles.css.map */
