@@ -1,0 +1,46 @@
+/*LeftSide Bar*/
+.card {
+  width: 240px;
+}
+
+.card .card-body {
+  padding-left: 20px;
+}
+
+.card .card-body .card-title {
+  font-weight: bold;
+  line-height: 1.4;
+  text-decoration: none;
+  word-spacing: 1px;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.card .card-body .card-title .LBIntroLink {
+  color: #3b49df;
+  text-decoration: none;
+}
+
+.card .card-body .card-text {
+  word-spacing: 1px;
+  font-size: 16px;
+  color: #5C5757;
+}
+
+.card .card-body .btn-primary {
+  height: 40px;
+  width: 200px;
+  font-weight: 600;
+  background-color: #3b49df;
+  border: #3b49df;
+}
+
+.card .card-body .btn-light {
+  height: 40px;
+  width: 200px;
+  font-weight: 600;
+  color: #3b49df;
+  background-color: white;
+  border: white;
+}
+/*# sourceMappingURL=styles.css.map */

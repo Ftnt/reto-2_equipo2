@@ -1,0 +1,52 @@
+/*LeftSide Bar*/
+//Mixins
+@mixin fontHead{
+    font-weight: bold;
+    line-height: 1.4;
+    text-decoration: none;
+    word-spacing: 1px;
+}
+
+@mixin btnHead {
+    height: 40px;
+    width: 200px;
+    font-weight: 600;
+}
+
+//Login Card
+.card{
+    width: 240px;
+    .card-body{
+        padding-left: 20px;
+        .card-title{
+            @include fontHead();
+            font-size: 18px;
+            
+            padding-bottom: 5px;
+            
+            .LBIntroLink{
+                color: #3b49df;
+                text-decoration: none;
+            }
+        }
+        .card-text{
+            word-spacing: 1px;
+            font-size: 16px;
+            color: #5C5757;
+        }
+
+        .btn-primary{
+            @include btnHead();
+            background-color: #3b49df;
+            border: #3b49df;
+        }
+        .btn-light{
+            @include btnHead();
+            color: #3b49df;
+            background-color: white;
+            border: white;
+            
+        }
+
+    }
+}
