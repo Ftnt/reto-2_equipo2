@@ -175,4 +175,8 @@
   height: 180px;
   width: 240px;
 }
+
+.LBcontPub:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
