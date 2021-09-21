@@ -82,4 +82,13 @@
   border-radius: 5px;
   background-color: #eceaea;
 }
+
+.LBcontRedS .btn-group {
+  fill: #7c7a7a;
+}
+
+.LBcontRedS .btn-group .btn:hover {
+  fill: #504f4f;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
