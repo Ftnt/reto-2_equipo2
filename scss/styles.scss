@@ -11,11 +11,13 @@
     height: 40px;
     width: 200px;
     font-weight: 600;
+    margin:5px;
 }
 
 //Login Card
 .card{
     width: 240px;
+    //border: solid red 1px;
     .card-body{
         padding-left: 20px;
         .card-title{
@@ -32,6 +34,7 @@
                 cursor: pointer;
             }
         }
+        //Texto de Body
         .card-text{
             word-spacing: 1px;
             font-size: 16px;
@@ -58,7 +61,15 @@
         .btn-light:hover{
             background-color: #f1efef;
         }
+    }
+}
 
-
+//FirstBar
+.LBcontIntro{
+    width: 240px;
+    padding-top: 10px;
+    .nav-item:hover{
+        border-radius: 5px;
+        background-color: #eceaea;
     }
 }

@@ -35,6 +35,7 @@
   height: 40px;
   width: 200px;
   font-weight: 600;
+  margin: 5px;
   background-color: #3b49df;
   border: #3b49df;
 }
@@ -47,6 +48,7 @@
   height: 40px;
   width: 200px;
   font-weight: 600;
+  margin: 5px;
   color: #3b49df;
   background-color: white;
   border: white;
@@ -54,5 +56,15 @@
 
 .card .card-body .btn-light:hover {
   background-color: #f1efef;
+}
+
+.LBcontIntro {
+  width: 240px;
+  padding-top: 10px;
+}
+
+.LBcontIntro .nav-item:hover {
+  border-radius: 5px;
+  background-color: #eceaea;
 }
 /*# sourceMappingURL=styles.css.map */
