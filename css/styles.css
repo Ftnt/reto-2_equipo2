@@ -17,7 +17,7 @@
 }
 
 .card .card-body .card-title .LBIntroLink {
-  color: #3b49df;
+  color: #858585;
   text-decoration: none;
 }
 
@@ -113,5 +113,38 @@
 .LBcontTags .list-group .list-group-item {
   padding-left: 0%;
   border: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.LBcontTags .list-group .btn-primary {
+  background-color: white;
+  border: white solid 1px;
+  width: 70px;
+  height: 30px;
+  padding-top: 3px;
+  font-size: 14px;
+}
+
+.LBcontTags .list-group .btn-primary:hover {
+  background-color: #262f8f;
+  border: #3b49df solid 1px;
+}
+
+.LBcontTags .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.LBcontTags .list-group .list-group-item:hover .btn-primary {
+  background-color: #3b49df;
+  border: #3b49df solid 1px;
 }
 /*# sourceMappingURL=styles.css.map */
