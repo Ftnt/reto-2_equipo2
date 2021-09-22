@@ -1,0 +1,61 @@
+body{
+    background-color: $gralBg;
+}
+
+.headMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 200px 10px 200px;
+    //border: red 1px solid;
+
+    .txtNotif{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .txtSet{
+        font-size: 16px;
+        font-weight: 600;
+        color: #585555;
+        padding-top: 7px;
+        padding-left: 17px;
+        border-radius: 5px;
+        //border: red 1px solid;
+        height: 40px;
+        width: 95px;
+    }
+
+    .txtSet:hover{
+        background-color: $HoverGray;
+        color: black;
+    }
+}
+
+
+#contMenu{
+    border: red 1px solid;
+    padding: 15px 200px 10px 200px;
+    
+    .list-group-item{
+        width: 240px;
+        border: none;
+        background-color: $gralBg;
+    }
+
+    .list-group-item:hover{
+        background-color: $HoverGray;
+    }
+    
+    .active{
+        color:black;
+        font-weight: 900px;
+        border: none;
+        background-color: white;
+            }
+        
+    
+}
+    
+
