@@ -632,6 +632,13 @@ body {
   margin-left: 15px;
 }
 
+.main__body .card .card-body .btn-light {
+  background-color: #e6e3e3;
+  width: auto;
+  color: #575757;
+  font-weight: 400;
+}
+
 * {
   text-decoration: none;
   list-style: none;

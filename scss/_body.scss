@@ -72,5 +72,14 @@
     .card{
         width: auto;
         margin-left: 15px;
+
+        .card-body .btn-light {
+            background-color: #e6e3e3;
+            width: auto;
+            color: #575757;
+            font-weight: 400;
+        }
     }
+
+    
 }
