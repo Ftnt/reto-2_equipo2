@@ -71,4 +71,20 @@ body {
 .comment1 {
   width: 80%;
 }
+
+.columna {
+  position: fixed;
+  top: 20%;
+  left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=styles.css.map */
