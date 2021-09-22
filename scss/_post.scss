@@ -58,6 +58,13 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
+.numbers2{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
 .left_icons{
     fill: rgb(82, 80, 80);
 }
@@ -98,4 +105,16 @@ body{
 .lastSectionUser{
     font-size: 13px;
     font-weight: 200;
+}
+
+.barra{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 32px;
+    padding-bottom: 16px;
+    background: #111;
+    background: rgba(0,0,0,.90);
+    border-top: 2px solid #f00;
+    z-index:2000;
 }
