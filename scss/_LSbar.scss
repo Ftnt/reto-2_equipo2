@@ -6,7 +6,7 @@ body{
         display: flex;
         width: 240px;
         flex-wrap: wrap;
-        margin-left:60px;
+        margin-left:30px;
         //border: solid red 1px;
         .card-body{
             padding-left: 20px;
@@ -58,7 +58,7 @@ body{
     .LBcontIntro{
         width: 240px;
         padding-top: 10px;
-        margin-left:60px;
+        margin-left:30px;
         .nav-item{
             display: flex;
             flex-direction: row;
@@ -84,7 +84,7 @@ body{
     .LBcontOther{
         padding-top: 20px;
         padding-bottom: 20px;
-        margin-left:60px;
+        margin-left:30px;
         .LBOcont0{
             font-weight: bold;
             font-size: 16px;
@@ -110,7 +110,7 @@ body{
     
     //4.SocialNetwork
     .LBcontRedS{
-        margin-left:60px;
+        margin-left:30px;
         width: 180px;
         .btn-group{
             fill: #7c7a7a;
@@ -123,7 +123,7 @@ body{
     
     //5.PopularTags
     .LBcontTags{
-        margin-left:60px;
+        margin-left:30px;
         padding-top: 40px;
         padding-bottom: 20px;
         
@@ -201,7 +201,7 @@ body{
         
     //6.Publicity
     .LBcontPub {
-        margin-left:60px;
+        margin-left:30px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -234,9 +234,3 @@ body{
       display: none;
     }
   }
-
-      
-     
-    
-
-
