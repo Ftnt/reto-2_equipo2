@@ -186,4 +186,10 @@
     cursor: pointer;
   }
   
- 
+ //Media Query
+@media (min-width: 320px) and (max-width: 1200px) {
+    /* CSS */
+    #lsBar {
+      display: none;
+    }
+  }
