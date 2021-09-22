@@ -1,4 +1,8 @@
 /*LeftSide Bar*/
+body {
+  background-color: #EFEFEF;
+}
+
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,9 +74,29 @@
   margin-left: 60px;
 }
 
+.LBcontIntro .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 240px;
+}
+
+.LBcontIntro .nav-item .nav-link {
+  padding-right: 5px;
+}
+
+.LBcontIntro .nav-item .tagName {
+  padding-top: 10px;
+  color: black;
+}
+
 .LBcontIntro .nav-item:hover {
   border-radius: 5px;
-  background-color: #eceaea;
+  background-color: #e6e3e3;
 }
 
 .LBcontOther {
@@ -86,13 +110,34 @@
   font-size: 16px;
 }
 
+.LBcontOther .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 240px;
+}
+
+.LBcontOther .nav-item .nav-link {
+  padding-right: 5px;
+}
+
+.LBcontOther .nav-item .tagName {
+  padding-top: 10px;
+  color: black;
+}
+
 .LBcontOther .nav-item:hover {
   border-radius: 5px;
-  background-color: #eceaea;
+  background-color: #e6e3e3;
 }
 
 .LBcontRedS {
   margin-left: 60px;
+  width: 180px;
 }
 
 .LBcontRedS .btn-group {
@@ -110,10 +155,29 @@
   padding-bottom: 20px;
 }
 
-.LBcontTags .LBheadTags {
+.LBcontTags .contHeadTags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 240px;
+  height: 320;
+}
+
+.LBcontTags .contHeadTags .LBheadTags {
   font-weight: bold;
   font-size: 16px;
   padding-bottom: 20px;
+}
+
+.LBcontTags .contHeadTags #tag-priority-link {
+  fill: #7c7a7a;
 }
 
 .LBcontTags .list-group {
@@ -136,6 +200,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #EFEFEF;
+  padding-left: 10px;
+  border-radius: 5px;
 }
 
 .LBcontTags .list-group .btn-primary {
@@ -155,6 +222,7 @@
 
 .LBcontTags .list-group .list-group-item:hover {
   color: #3b49df;
+  background-color: #e6e3e3;
 }
 
 .LBcontTags .list-group .list-group-item:hover .btn-primary {
@@ -198,5 +266,12 @@
 
 .LBcontPub:hover {
   cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  /* CSS */
+  #lsBar {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
