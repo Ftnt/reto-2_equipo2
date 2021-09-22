@@ -1,13 +1,28 @@
+header {
+    height: 56px;
+}
+
+body {    
+    background-color: #efefef;
+}
+
+.c-fluid {
+    height: 56px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;    
+    top: 0;
+}
+
 .navbar_bar {
     padding: 0;
     margin: 0;
     height: 56px;
 }
 
-.container_bar {
-    max-width: 1280px;
+.container_bar {    
     max-height: 56px;
-    padding: 0 1rem;
+    padding: 0 1rem;              
 }
 
 .d-flex_bar {
@@ -35,7 +50,6 @@
         background-color: lighten(#d6d6d7, 12);        
     }
 }
-
 
 .navbar-nav_bar {
     margin-left: auto;   
@@ -80,6 +94,10 @@
 .avatar_image {
     width: 32px;
     height: 32px;
+}
+
+main {
+    margin-top: 20px;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
