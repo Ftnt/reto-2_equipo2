@@ -94,6 +94,11 @@ body {
 .avatar_image {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+
+    &:hover {
+        border: 2px solid lighten(#d6d6d7, 12);            
+    }
 }
 
 main {

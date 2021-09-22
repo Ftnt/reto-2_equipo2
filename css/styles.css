@@ -100,6 +100,11 @@ body {
 .avatar_image {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
+}
+
+.avatar_image:hover {
+  border: 2px solid whitesmoke;
 }
 
 main {
@@ -417,6 +422,7 @@ main {
   color: #575757;
   padding: 3rem;
   position: relative;
+  font-size: .875rem;
   text-align: center;
   bottom: 0;
 }
@@ -434,5 +440,10 @@ main {
 
 .link-footer:hover {
   color: #3B49DF;
+}
+
+#p_footer {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */
