@@ -1,32 +1,29 @@
-.navbar{
+.navbar_bar {
     padding: 0;
     margin: 0;
     height: 56px;
 }
 
-.container {
+.container_bar {
     max-width: 1280px;
     max-height: 56px;
     padding: 0 1rem;
 }
 
-.d-flex {
+.d-flex_bar {
     width: 420px;
     max-width: 420px;
     margin: 0 1rem;
-}
-
-.form-control {
-    width: 100%;
-    padding: .4375rem .5rem;
-}
-
-.d-flex {
     position: relative;
     align-items: center;
 }
 
-.btn-outline-success {
+.form-control_bar {
+    width: 100%;
+    padding: .4375rem .5rem;
+}
+
+.btn-sucess {
     position: absolute;
     border-radius: 50%;
     margin: .25rem;
@@ -40,7 +37,7 @@
 }
 
 
-.navbar-nav {
+.navbar-nav_bar {
     margin-left: auto;   
     align-items: center; 
 }
@@ -80,14 +77,13 @@
     top: 15%;
 }
 
-
-.avatar__image {
+.avatar_image {
     width: 32px;
     height: 32px;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
-    .d-flex {
+    .d-flex_bar {
         width: 100px;
         max-width: 100px;
         margin: 0 1rem;
