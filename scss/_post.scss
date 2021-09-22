@@ -8,6 +8,10 @@
     a{
         text-decoration: none;
     }
+    .barra{
+        display: none;
+        visibility: hidden;
+    }
 }
 
 body{
@@ -107,14 +111,20 @@ body{
     font-weight: 200;
 }
 
-.barra{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 32px;
-    padding-bottom: 16px;
-    background: #111;
-    background: rgba(0,0,0,.90);
-    border-top: 2px solid #f00;
-    z-index:2000;
+@media (max-width: 750px) {
+    .sideIzquierda{
+        display: none;
+    }
+    .barra{
+        display: block;
+        visibility: visible;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background: #efefef;
+        border-radius: 5px;
+        z-index:2000;
+    }
 }
+
