@@ -315,7 +315,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px 200px 10px 200px;
+  padding: 15px 200px 10px 140px;
 }
 
 .headMenu .txtNotif {
@@ -341,24 +341,64 @@ body {
 }
 
 #contMenu {
-  border: red 1px solid;
-  padding: 15px 200px 10px 200px;
+  background-color: #EFEFEF;
+  padding: 15px 200px 10px 140px;
 }
 
 #contMenu .list-group-item {
   width: 240px;
   border: none;
   background-color: #EFEFEF;
+  color: black;
+}
+
+#contMenu .list-group-item .active {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+
+#contMenu .active {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
 }
 
 #contMenu .list-group-item:hover {
   background-color: #e6e3e3;
 }
 
-#contMenu .active {
-  color: black;
-  font-weight: 900px;
-  border: none;
+#contMenu .tab-pane {
+  background-color: #EFEFEF;
+}
+
+#contMenu .tab-pane .card {
+  margin-left: 10px;
+  background-color: #EFEFEF;
+  border-radius: 10px;
+  border: #ecebeb 1px solid;
+}
+
+#contMenu .tab-pane .card .card-body {
+  width: 730px;
+  height: 350px;
   background-color: white;
+  border-radius: 10px;
+  border: #d6d3d3 1px solid;
+  margin-bottom: 10px;
+}
+
+#contMenu .tab-pane .card .card-body .crayons-avatar__image {
+  margin-left: 280px;
+  margin-top: 30px;
+  border-radius: 100px;
+  border: #d8d7d7 1px solid;
+}
+
+#contMenu #list-home {
+  width: 730px;
+  height: 350px;
 }
 /*# sourceMappingURL=styles.css.map */

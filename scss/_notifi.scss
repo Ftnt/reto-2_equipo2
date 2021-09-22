@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 200px 10px 200px;
+    padding: 15px 200px 10px 140px;
     //border: red 1px solid;
 
     .txtNotif{
@@ -35,27 +35,75 @@ body{
 
 
 #contMenu{
-    border: red 1px solid;
-    padding: 15px 200px 10px 200px;
+    //border: red 1px solid;
+    background-color: $gralBg;
+    padding: 15px 200px 10px 140px;
     
     .list-group-item{
         width: 240px;
         border: none;
-        background-color: $gralBg;
+        background-color: $gralBg;   
+        color: black;
+        .active{
+            background-color: white;
+            color:black;
+            font-weight:bolder;
+            border: none;
+            //background-color: white;
+                }
+        
+        
     }
+
+    .active{
+        background-color: white;
+        color:black;
+        font-weight:bolder;
+        border: none;
+        //background-color: white;
+            }
 
     .list-group-item:hover{
         background-color: $HoverGray;
     }
+    .tab-pane{
+        //border: red 1px solid;
+        background-color: $gralBg;
+    .card{
+        margin-left: 10px;
+        background-color: $gralBg;
+        border-radius: 10px;
+        border: rgb(236, 235, 235) 1px solid;
+        .card-body{
+            width: 730px;
+            height: 350px;
+            background-color: white;
+            border-radius: 10px;
+            border: rgb(214, 211, 211) 1px solid;
+            margin-bottom: 10px;
     
-    .active{
-        color:black;
-        font-weight: 900px;
-        border: none;
-        background-color: white;
+            .crayons-avatar__image{
+                margin-left: 280px;
+                margin-top: 30px;
+                border-radius: 100px;
+                border: rgb(216, 215, 215) 1px solid;
             }
-        
+        }
+
+    }
     
 }
+    #list-home{
+        width: 730px;
+        height: 350px;
+    }
+
+    
+}
+    
+    
+    
+        
+    
     
 
