@@ -541,6 +541,41 @@ body {
   }
 }
 
+.names_r {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-r {
+  width: 100%;
+  font-weight: 550;
+}
+
+.card_author {
+  font-size: 12px;
+  font-weight: 200;
+  color: #444444;
+  line-height: 12px;
+}
+
+.card_author .negrita {
+  font-weight: 550;
+  color: #868282;
+}
+
+.more_title {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.more_tags {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
 main {
   margin-bottom: 20px;
 }
