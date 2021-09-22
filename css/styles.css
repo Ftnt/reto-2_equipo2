@@ -1,6 +1,12 @@
 /*LeftSide Bar*/
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 240px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 60px;
 }
 
 .card .card-body {
@@ -61,6 +67,7 @@
 .LBcontIntro {
   width: 240px;
   padding-top: 10px;
+  margin-left: 60px;
 }
 
 .LBcontIntro .nav-item:hover {
@@ -71,6 +78,7 @@
 .LBcontOther {
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-left: 60px;
 }
 
 .LBcontOther .LBOcont0 {
@@ -83,6 +91,10 @@
   background-color: #eceaea;
 }
 
+.LBcontRedS {
+  margin-left: 60px;
+}
+
 .LBcontRedS .btn-group {
   fill: #7c7a7a;
 }
@@ -93,6 +105,7 @@
 }
 
 .LBcontTags {
+  margin-left: 60px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -132,10 +145,11 @@
   height: 30px;
   padding-top: 3px;
   font-size: 14px;
+  z-index: 200;
 }
 
 .LBcontTags .list-group .btn-primary:hover {
-  background-color: #262f8f;
+  background-color: red;
   border: #3b49df solid 1px;
 }
 
@@ -148,7 +162,13 @@
   border: #3b49df solid 1px;
 }
 
+.LBcontTags .list-group .list-group-item:hover .btn-primary:hover {
+  background-color: #2c38c0;
+  border: #2c38c0 solid 1px;
+}
+
 .LBcontPub {
+  margin-left: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +181,7 @@
           justify-content: space-between;
   padding-top: 30px;
   height: 300px;
-  width: 100%;
+  width: 240px;
 }
 
 .LBcontPub h4 {
@@ -173,7 +193,7 @@
 
 .LBcontPub .LBim1 {
   height: 180px;
-  width: 240px;
+  width: 230px;
 }
 
 .LBcontPub:hover {
