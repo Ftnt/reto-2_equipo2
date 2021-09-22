@@ -315,7 +315,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px 200px 10px 140px;
+  padding: 15px 140px 10px 140px;
 }
 
 .headMenu .txtNotif {
@@ -343,6 +343,8 @@ body {
 #contMenu {
   background-color: #EFEFEF;
   padding: 15px 200px 10px 140px;
+  min-height: 100vh;
+  height: 100%;
 }
 
 #contMenu .list-group-item {
@@ -397,8 +399,65 @@ body {
   border: #d8d7d7 1px solid;
 }
 
+#contMenu .tab-pane .card .card-body .card-text {
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  color: black;
+}
+
+#contMenu .tab-pane .card .card-body .card-link {
+  padding-left: 200px;
+  color: #6b6969;
+  font-weight: lighter;
+}
+
+#contMenu .tab-pane .card .card-body .card-link .setLink {
+  text-decoration: none;
+  color: #3b49df;
+}
+
 #contMenu #list-home {
   width: 730px;
   height: 350px;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+.container-footer {
+  background: #d6d6d7;
+  color: #575757;
+  padding: 10px;
+  position: absolute;
+  font-size: .875rem;
+  text-align: center;
+  bottom: 100;
+}
+
+.link-footer {
+  color: #090909;
+  line-height: 1.25;
+  font-size: .875rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.link-footer:hover {
+  color: #3B49DF;
+}
+
+#p_footer {
+  margin: 0;
+  padding: 0;
+}
+
+.notificationFooter {
+  position: relative;
 }
 /*# sourceMappingURL=styles.css.map */
