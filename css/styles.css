@@ -323,12 +323,12 @@ body {
 
 .avatar2 {
   border-radius: 50%;
-  height: 50px;
+  height: 40px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  width: 40px;
+  width: 35px;
 }
 
 .dates {
