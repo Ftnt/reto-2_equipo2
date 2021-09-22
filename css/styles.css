@@ -686,6 +686,129 @@ body {
   }
 }
 
+body {
+  background-color: #EFEFEF;
+}
+
+.headMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 140px 10px 140px;
+}
+
+.headMenu .txtNotif {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.headMenu .txtSet {
+  font-size: 16px;
+  font-weight: 600;
+  color: #585555;
+  padding-top: 7px;
+  padding-left: 17px;
+  border-radius: 5px;
+  height: 40px;
+  width: 95px;
+}
+
+.headMenu .txtSet:hover {
+  background-color: #e6e3e3;
+  color: black;
+}
+
+#contMenu {
+  background-color: #EFEFEF;
+  padding: 15px 200px 10px 140px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+#contMenu .list-group-item {
+  width: 240px;
+  border: none;
+  background-color: #EFEFEF;
+  color: black;
+}
+
+#contMenu .list-group-item .active {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+
+#contMenu .active {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+
+#contMenu .list-group-item:hover {
+  background-color: #e6e3e3;
+}
+
+#contMenu .tab-pane {
+  background-color: #EFEFEF;
+}
+
+#contMenu .tab-pane .card {
+  margin-left: 10px;
+  background-color: #EFEFEF;
+  border-radius: 10px;
+  border: #ecebeb 1px solid;
+}
+
+#contMenu .tab-pane .card .card-body {
+  width: 730px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  border: #d6d3d3 1px solid;
+  margin-bottom: 10px;
+}
+
+#contMenu .tab-pane .card .card-body .crayons-avatar__image {
+  margin-left: 280px;
+  margin-top: 30px;
+  border-radius: 100px;
+  border: #d8d7d7 1px solid;
+}
+
+#contMenu .tab-pane .card .card-body .card-text {
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  color: black;
+}
+
+#contMenu .tab-pane .card .card-body .card-link {
+  padding-left: 200px;
+  color: #6b6969;
+  font-weight: lighter;
+}
+
+#contMenu .tab-pane .card .card-body .card-link .setLink {
+  text-decoration: none;
+  color: #3b49df;
+}
+
+#contMenu #list-home {
+  width: 730px;
+  height: 350px;
+}
+
 main {
   margin-bottom: 20px;
 }
@@ -718,5 +841,9 @@ main {
 #p_footer {
   margin: 0;
   padding: 0;
+}
+
+.notificationFooter {
+  position: relative;
 }
 /*# sourceMappingURL=styles.css.map */
