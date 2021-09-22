@@ -347,12 +347,12 @@ body {
 
 .avatar2 {
   border-radius: 50%;
-  height: 50px;
+  height: 40px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  width: 40px;
+  width: 35px;
 }
 
 .dates {
@@ -371,12 +371,16 @@ body {
 }
 
 .subcontent {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 250;
+}
+
+.driwwwle {
+  width: 30%;
 }
 
 .pinkImage {
-  width: 30%;
+  width: 40%;
 }
 
 .numbers {
@@ -411,6 +415,29 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.comment2 {
+  width: 60%;
+}
+
+.lastSection {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lastSectionTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lastSectionTitle a {
+  color: black;
+}
+
+.lastSectionUser {
+  font-size: 13px;
+  font-weight: 200;
 }
 
 main {
