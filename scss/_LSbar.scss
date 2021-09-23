@@ -228,9 +228,9 @@ body{
       }
 
 //Media Query
-@media (min-width: 320px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 752px) {
     /* CSS */
-    #asideR {
+    #lsBar {
       display: none;
     }
   }
