@@ -618,6 +618,14 @@ body {
   color: #242424;
 }
 
+.card_g_ar .link_sub {
+  color: #242424;
+}
+
+.card_g_ar .link_sub:hover {
+  color: #3b49df;
+}
+
 .card_g_ar .image_ar {
   border-radius: 5px;
 }
@@ -680,6 +688,10 @@ body {
 
 .card_link_ar div {
   color: #242424;
+}
+
+.card_link_ar div:hover {
+  color: #3b49df;
 }
 
 div .card_link_ar {

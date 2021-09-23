@@ -6,6 +6,13 @@
     box-shadow: 0 0 0 1px rgba(9,9,9, 0.05);
     color: #242424;
     
+    .link_sub {
+        color: #242424;
+        &:hover {
+            color:$gralBlue;
+        }
+    }
+
 
     .image_ar {
         border-radius: 5px;
@@ -61,7 +68,10 @@
     }
 
     div {
-        color: #242424;       
+        color: #242424;    
+        &:hover {
+            color:$gralBlue;
+        }   
     }
     
 }
