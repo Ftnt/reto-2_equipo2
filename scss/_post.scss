@@ -83,7 +83,7 @@ body{
 .columna{
     position: fixed;
     top: 20%;
-    left: 4%;
+    // left: 4%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -149,6 +149,9 @@ body{
     .sideIzquierda{
         display: none;
         visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .barra{
         display: block;
