@@ -601,6 +601,112 @@ body {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   /* CSS */
+  #asideR {
+    display: none;
+  }
+}
+
+.card_g_ar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 1rem 1rem;
+  border-radius: 0.375rem;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0 0 0 1px rgba(9, 9, 9, 0.05);
+          box-shadow: 0 0 0 1px rgba(9, 9, 9, 0.05);
+  color: #242424;
+}
+
+.card_g_ar .image_ar {
+  border-radius: 5px;
+}
+
+.card_g_ar h4 {
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+  font-weight: bold;
+}
+
+.card_g_ar small {
+  font-size: 80%;
+}
+
+.card_g_ar a {
+  color: #3b49df;
+}
+
+.card_g_ar h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #242424;
+}
+
+.card_g_ar .card_header_ar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #efefef;
+}
+
+.card_g_ar .card_header_ar .actions_ar {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.card_link_ar {
+  display: block;
+  padding: 1rem;
+  border-bottom: 1px solid #efefef;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card_link_ar:hover {
+  background: white;
+  color: #3b49df;
+}
+
+.card_link_ar div {
+  color: #242424;
+}
+
+div .card_link_ar {
+  color: #242424;
+}
+
+.card_link_secon_ar {
+  color: #717171;
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+}
+
+.indicator-ar {
+  background-color: #3b49df;
+  border-color: #3b49df;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  border: 1px solid #d6d6d7;
+  text-align: center;
+  line-height: 1;
+  border-radius: 0.375rem;
+  display: inline-block;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  /* CSS */
   #lsBar {
     display: none;
   }
