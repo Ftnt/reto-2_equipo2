@@ -90,7 +90,7 @@ body{
 }
 
 .comment2{
-    width: 60%;
+    width: 82%;
 }
 
 .lastSection{
@@ -111,9 +111,44 @@ body{
     font-weight: 200;
 }
 
+.names_r{
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+}
+
+.btn-r{
+    width: 100%;
+    font-weight: 550;
+}
+
+.card_author{
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(68, 68, 68);
+    line-height: 12px;
+    .negrita{
+        font-weight:550;
+        color: rgb(134, 130, 130);
+    }
+}
+
+.more_title{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.more_tags{
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+}
+
 @media (max-width: 750px) {
     .sideIzquierda{
         display: none;
+        visibility: hidden;
     }
     .barra{
         display: block;
@@ -128,3 +163,8 @@ body{
     }
 }
 
+// .side_right{
+//     position: fixed;
+//     top: 13%;
+//     left: 83%;
+// }

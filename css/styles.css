@@ -7,6 +7,10 @@ body {
   background-color: #efefef;
 }
 
+.crayons-iconR {
+  visibility: hidden;
+}
+
 .c-fluid {
   height: 56px;
   background-color: #fff;
@@ -111,11 +115,73 @@ main {
   margin-top: 20px;
 }
 
-@media (min-width: 500px) and (max-width: 900px) {
+.navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 100px) and (max-width: 900px) {
+  .container_bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+  .container_bar .crayons-iconR {
+    visibility: visible;
+  }
+  .container_bar .navbar-logo .svg {
+    padding-top: 0px;
+    padding-left: 20px;
+    width: 20px;
+    height: 40px;
+  }
+  .container_bar .navbar-logo .svgResp {
+    padding-top: 10px;
+  }
+  .container_bar .btn-outline-success {
+    padding-top: 5px;
+  }
+  .navbar-toggler {
+    visibility: hidden;
+    margin-right: 0%;
+    position: absolute;
+    left: 60px;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    margin-right: 0%;
+  }
   .d-flex_bar {
-    width: 100px;
-    max-width: 100px;
-    margin: 0 1rem;
+    position: absolute;
+    left: 290px;
+    width: 5px;
+  }
+  .d-flex_bar .form-control_bar {
+    visibility: hidden;
+  }
+  .d-flex_bar .crayons-iconR2 {
+    width: 20px;
+    height: 20px;
+  }
+  #navbarSupportedContent {
+    position: absolute;
+    left: 160px;
+    width: 50px;
+  }
+  #navbarSupportedContent .crayons-iconR3 {
+    width: 10px;
+    height: 10px;
   }
 }
 
@@ -646,6 +712,105 @@ div .card_link_ar {
   }
 }
 
+.main__body .authentication__card {
+  background-color: rgba(59, 73, 223, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(9, 9, 9, 0.2);
+  margin-bottom: 0.75rem;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.main__body .authentication__card .authentication__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main__body .authentication__card .authentication__body .feed__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__body .authentication__card .authentication__body .feed__container .feed__image-container {
+  height: 80px;
+  width: 80px;
+  margin-right: 2rem;
+}
+
+.main__body .authentication__card .authentication__body .feed__container .feed__image-container .feed__image {
+  border-radius: 10px;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  height: auto;
+  width: 100%;
+}
+
+.main__body .authentication__card .authentication__body .feed__container .feed__title h2 {
+  font-size: 1.875rem;
+}
+
+.main__body .authentication__card .authentication__body .feed__container .feed__title h2 a {
+  color: #3b49df;
+}
+
+.main__body .authentication__card .authentication__body .feed__container .feed__title p {
+  color: #575757;
+  font-size: 1.15rem;
+}
+
+.main__body .authentication__card .authentication__body .feed__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.main__body .authentication__card .authentication__body .feed__actions .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.main__body .authentication__card .authentication__body .feed__actions .btn-blue {
+  background-color: #3b49df;
+}
+
+.main__body .authentication__card .authentication__body .feed__actions .btn-transparent {
+  background-color: transparent;
+  color: #3b49df;
+}
+
+.main__body .card {
+  width: auto;
+  margin-left: 15px;
+}
+
+.main__body .card .card-body .btn-light {
+  background-color: #e6e3e3;
+  width: auto;
+  color: #575757;
+  font-weight: 400;
+}
+
 * {
   text-decoration: none;
   list-style: none;
@@ -753,7 +918,7 @@ body {
 }
 
 .comment2 {
-  width: 60%;
+  width: 82%;
 }
 
 .lastSection {
@@ -775,9 +940,45 @@ body {
   font-weight: 200;
 }
 
+.names_r {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-r {
+  width: 100%;
+  font-weight: 550;
+}
+
+.card_author {
+  font-size: 12px;
+  font-weight: 200;
+  color: #444444;
+  line-height: 12px;
+}
+
+.card_author .negrita {
+  font-weight: 550;
+  color: #868282;
+}
+
+.more_title {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.more_tags {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
 @media (max-width: 750px) {
   .sideIzquierda {
     display: none;
+    visibility: hidden;
   }
   .barra {
     display: block;
