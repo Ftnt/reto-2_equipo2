@@ -67,18 +67,26 @@
         color:$gralBlue;
     }
 
-    div {
+    .primer_ar {
         color: #242424;    
         &:hover {
             color:$gralBlue;
         }   
-    }
-    
+    }    
+}
+
+#final_link {
+    color: #242424;
+    font-size: 0.875rem;
+    font-weight: 500;
+    &:hover {
+        color:$gralBlue;
+    } 
+
 }
 
 div .card_link_ar{    
-        color: #242424;
-
+    color: #242424;
 }
 
 .card_link_secon_ar {

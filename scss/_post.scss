@@ -145,6 +145,12 @@ body{
     color: gray;
 }
 
+.sideIzquierda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 750px) {
     .sideIzquierda{
         display: none;

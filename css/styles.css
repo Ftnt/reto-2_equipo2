@@ -402,7 +402,7 @@ body {
 .LBcontIntro {
   width: 240px;
   padding-top: 10px;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 .LBcontIntro .nav-item {
@@ -686,11 +686,21 @@ body {
   color: #3b49df;
 }
 
-.card_link_ar div {
+.card_link_ar .primer_ar {
   color: #242424;
 }
 
-.card_link_ar div:hover {
+.card_link_ar .primer_ar:hover {
+  color: #3b49df;
+}
+
+#final_link {
+  color: #242424;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+#final_link:hover {
   color: #3b49df;
 }
 
@@ -984,6 +994,18 @@ body {
   font-size: 12px;
   font-weight: 300;
   color: gray;
+}
+
+.sideIzquierda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 750px) {
